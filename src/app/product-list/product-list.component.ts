@@ -10,8 +10,14 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
-  share() {
-    window.alert('The product has been shared!');
+ buy() {
+    window.alert('Buy the best product!');
+  }
+  userReview() {
+    window.alert('Worth for money... You can buy!');
+  }
+  welcome(){
+    window.alert('Thanks for visiting ..Come Again!!!')
   }
 }
 
